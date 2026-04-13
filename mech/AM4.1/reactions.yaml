@@ -69,10 +69,10 @@
       - species name: NO3
     products:
       - species name: NO2
-        coefficent: 0.89
+        coefficient: 0.89
       - species name: 'NO'
         coefficient: 0.11
-      - species name: O:
+      - species name: O
         coefficient: 0.89
   - type: PHOTOLYSIS
     name: jho2no2
@@ -1244,7 +1244,7 @@
       - species name: CH2O
       - species name: HO2
       - species name: CH3COCH3
-         coefficient: 0.82
+        coefficient: 0.82
   - type: ARRHENIUS
     name: op_c3h7o2 (4)
     A: 3.8e-12
@@ -1821,7 +1821,7 @@
       - species name: MGLY
         coefficient: 0.255
       - species name: CO
-        coefficent: 0.595
+        coefficient: 0.595
       - species name: CH2O
         coefficient: 1.255
       - species name: HO2
@@ -2145,7 +2145,7 @@
     gas phase: gas
     reactants:
       - species name: MGLY
-      = species name: OH
+      - species name: OH
     products:
       - species name: CH3CO3
       - species name: CO
@@ -2375,7 +2375,7 @@
     gas phase: gas
     reactants:
       - species name: C10H16
-      - speices name: OH
+      - species name: OH
     products:
       - species name: ISOPO2
         coefficient: 1.64
@@ -2791,4 +2791,4 @@
     scaling factor: 3.17e-8 
     gas phase: gas
     reactants:
-      - species_name: LCH4  
+      - species name: LCH4  
